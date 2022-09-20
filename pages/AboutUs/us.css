@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+}
+  
+.header {
+    background-color: rgb(3, 3, 3);
+    color: white;
+  
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+}
+
+.header a {
+    color: white;
+    text-decoration: none;
+}
+
+.logo-nav-container {
+    width: 70%;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 1rem;
+}
+
+.logo-nav-container p {
+    text-align: center;
+}
+
+.navigation ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: large;
+    text-align: center;
+}
+
+.navigation ul li {
+    display: inline-block;
+}
+
+.navigation ul li a {
+    display: block;
+    padding: 0.5rem 1rem;
+    transition: all 0.4s linear;
+}
+
+.navigation ul li a:hover {
+    background-color: rgb(49, 49, 49);
+}
+
+.navigation ul li a:active {
+    text-decoration:underline;
+}
+.main {
+    background-color:  rgb(24, 24, 24);
+    padding-top: 6.5rem;
+    padding-bottom: 1.5rem;
+}
+.phrase-1{
+    background-color: rgb(31, 30, 30);
+    width: 90%;
+    display: flex;
+    margin: 1em auto;
+    border: 0.5rem solid black;
+}
+.phrase-1 img{
+    width: 40vw;
+    height: 40vh;
+    margin: 2vw;
+    border: solid rgb(63, 63, 63) 5px;
+    box-shadow: 10px 10px 7px -3px rgba(0,0,0,0.75);
+}
+.phrase-1 p{
+    color: white;
+    margin: 3vw;
+    font-size: 1.5vw;
+    text-align: justify;
+}
+.phrase-2{
+    background-color: rgb(31, 30, 30);
+    width: 90%;
+    display: flex;
+    margin: 1em auto;
+    border: 0.5rem solid black;
+}
+.phrase-2 img{
+    width: 40vw;
+    height: 40vh;
+    margin: 2vw;
+    border: solid rgb(63, 63, 63) 5px;
+    box-shadow: 10px 10px 7px -3px rgba(0,0,0,0.75);
+}
+.phrase-2 p{
+    color: white;
+    margin: 3vw;
+    font-size: 1.5vw;
+    text-align: justify;
+}
+.phrase-3{
+    background-color: rgb(31, 30, 30);
+    width: 90%;
+    display: flex;
+    margin: 1em auto;
+    border: 0.5rem solid black;
+}
+.phrase-3 img{
+    width: 40vw;
+    height: 40vh;
+    margin: 2vw;
+    border: solid rgb(63, 63, 63) 5px;
+    box-shadow: 10px 10px 7px -3px rgba(0,0,0,0.75);
+}
+.phrase-3 p{
+    color: white;
+    margin: 3vw;
+    font-size: 1.5vw;
+    text-align: justify;
+}
+.phrase-4{
+    background-color: rgb(31, 30, 30);
+    width: 90%;
+    display: flex;
+    margin: 1em auto;
+    border: 0.5rem solid black;
+}
+.phrase-4 img{
+    width: 15%;
+    margin: 2vw;
+    box-shadow: 10px 10px 7px -3px rgba(0,0,0,0.75);
+}
+.phrase-4 p{
+    color: white;
+    margin: 3vw;
+    font-size: 1.5vw;
+    text-align: justify;
+}
+.footer {
+    background-color: rgb(31, 30, 30);
+    font-family: "Times New Roman", Times, serif;
+    color: gray;
+    padding: 1.3rem 0;
+    text-align: center;
+  }
+
+  @media screen and (max-width: 770px){
+    .phrase-1 p{
+        font-size: 2vw;
+    }
+    .phrase-2 p{
+        font-size: 2vw;
+    }
+    .phrase-3 p{
+        font-size: 2vw;
+    }
+    .footer p {
+        font-size: 2.5vw;
+      }
+  }
