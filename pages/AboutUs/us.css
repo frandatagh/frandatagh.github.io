@@ -67,8 +67,7 @@
     border: 0.5rem solid black;
 }
 .phrase-1 img{
-    width: 40vw;
-    height: 40vh;
+    width: 20vw;
     margin: 2vw;
     border: solid rgb(63, 63, 63) 5px;
     box-shadow: 10px 10px 7px -3px rgba(0,0,0,0.75);
@@ -87,8 +86,7 @@
     border: 0.5rem solid black;
 }
 .phrase-2 img{
-    width: 40vw;
-    height: 40vh;
+    width: 20vw;
     margin: 2vw;
     border: solid rgb(63, 63, 63) 5px;
     box-shadow: 10px 10px 7px -3px rgba(0,0,0,0.75);
@@ -107,8 +105,7 @@
     border: 0.5rem solid black;
 }
 .phrase-3 img{
-    width: 40vw;
-    height: 40vh;
+    width: 20vw;
     margin: 2vw;
     border: solid rgb(63, 63, 63) 5px;
     box-shadow: 10px 10px 7px -3px rgba(0,0,0,0.75);
@@ -146,6 +143,9 @@
   }
 
   @media screen and (max-width: 770px){
+    .navigation ul {
+        font-size: 3vw;
+      }
     .phrase-1 p{
         font-size: 2vw;
     }
