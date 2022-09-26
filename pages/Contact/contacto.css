@@ -63,7 +63,7 @@
 .menu-form {
     padding-top: 1%;
     width: 100%;
-    background-image: url(/pages/Contact/h-fondo.png);
+    background-image: url(./h-fondo.png);
     padding-bottom: 2%;
 }
 .formulario {
@@ -171,5 +171,8 @@
   @media screen and (max-width: 770px){
     .navigation ul {
         font-size: 3vw;
+      }
+      .footer p {
+        font-size: 2.5vw;
       }
   }
