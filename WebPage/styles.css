@@ -1,0 +1,466 @@
+* {
+  margin: 0;
+}
+
+.header {
+  background-color: rgb(3, 3, 3);
+  color: white;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+}
+.header a {
+  color: white;
+  text-decoration: none;
+}
+.logo-nav-container {
+  width: 70%;
+  margin: auto;
+  margin-bottom: 1rem;
+}
+.logo-nav-container p {
+  text-align: center;
+}
+.navigation ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: large;
+  text-align: center;
+}
+.navigation ul li {
+  display: inline-block;
+}
+.navigation ul li a {
+  display: block;
+  padding: 0.5rem 1rem;
+  transition: all 0.4s linear;
+}
+.navigation ul li a:hover {
+  background-color: rgb(49, 49, 49);
+}
+.navigation ul li a:active {
+  text-decoration:underline;
+}
+.main {
+  background-color: rgb(12, 12, 12);
+  padding-top: 6.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.menu-container1 {
+  background-color: black;
+  width: 100%;
+}
+
+.menu-1 {
+  margin: 0.5vw 0.5vw 0.5vw 0.5vw;
+  background-color: rgb(31, 30, 30);
+  width: 50%;
+  float: left;
+}
+.carrousel {
+  width: 94%;
+  height: 90%;
+  margin: 1%;
+  margin-left: 1.3%;
+  max-width: 120vw;
+  padding: 1vw;
+  background-color: rgb(31, 30, 30);
+  overflow: hidden;
+}
+.noticias {
+  text-align: center;
+  color: white;
+  font-size: 1.8vw;
+  margin-top: -0.8vw;
+}
+.carrousel .grande {
+  width: 300%;
+  height: 80%;
+  background-color: rgb(19, 18, 18);
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5em;
+
+  transition: all .5s ease;
+  transform: translateX(0%);
+}
+.carrousel .img {
+  width: calc(100% / 3 - 1em);
+  background-color: #7b28c4;
+}
+.carrousel .puntos {
+  width: 95%;
+  height: 1vw;
+  background-color: rgb(56, 56, 56);
+  padding: 0.5vw;
+  margin-left: 1vw;
+
+  display: flex;
+  flex-flow:  row nowrap;
+  justify-content: center;
+  align-items: center;
+}
+.carrousel .punto {
+  width: 1vw;
+  height: 1vw;
+  background-color: rgb(103, 98, 126);
+  margin: 1vw;
+  list-style: none;
+  border-radius: 100%;
+}
+.carrousel .punto:hover{
+  background-color: rgb(31, 30, 30);
+}
+.carrousel .punto.activo {
+  background-color: #3d2d2d;
+}
+
+.menu-2 {
+  float: left;
+  margin: 0.5vw;
+  padding: 0.5vw 1.2vw 1.2vw 0.5vw;
+  background-color: rgb(31, 30, 30);
+  width: 45%;
+}
+.menuiframe{
+  position: relative;
+  padding-bottom:  56.25%;
+  height: 0;
+}
+
+iframe {
+  border: 5px groove gray;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 99%;
+  height: 99%;
+}
+iframe:hover {
+  border-color: #86f77b;
+  transition: 0.4s;
+}
+
+.menu-container2 {
+  background-color: rgb(0, 0, 0);
+  margin: auto;
+  width: 92%;
+  display: grid;
+}
+.menu-3 {
+  background-color: rgb(31, 30, 30);
+  color: white;
+  width: 99%;
+  margin: 0.5vw;
+  display: flex;
+}
+
+.caja1 {
+  width: 34%;
+  height: 95%;
+  margin: 1vw;
+  background-color: rgb(31, 30, 30);
+  float: left;
+}
+.caja1 figure {
+  position: relative;
+  display: flex;
+  width: 93%;
+  margin: 2.5%;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+  cursor: pointer;
+  border: gray 5px solid;
+  border-radius: 6px;
+  filter: grayscale(100%);
+  color: white;
+}
+
+.caja1 figure img {
+  width: 100%;
+}
+.caja1 figure:hover {
+  filter: grayscale(0%);
+  border: rgb(202, 223, 111) 5px solid;
+  transition: 0.8s;
+  width: 95%;
+  margin: 1.5%;
+}
+
+.caja1 figure .capa {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  text-shadow: 2px 1px 1px rgb(133, 133, 133) ;
+}
+
+.capa p {
+  font-size: 1.5vw;
+}
+.capa h3 {
+ font-size: 4vw;
+}
+
+.caja2 {
+  width: 34%;
+  height: 95%;
+  margin: 1vw;
+  background-color:rgb(31, 30, 30);
+  float: left;
+}
+.caja2 figure {
+  position: relative;
+  display: flex;
+  width: 93.2%;
+  margin: 2.5%;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+  cursor: pointer;
+  border: gray 5px solid;
+  border-radius: 6px;
+  filter: grayscale(100%);
+  color: white;
+}
+.caja2 img {
+  width: 100%;
+}
+.caja2 figure:hover {
+  filter: grayscale(0%);
+  border: rgb(202, 223, 111) 5px solid;
+  transition: 0.8s;
+  width: 95%;
+  margin: 1.5%;
+}
+.capa2 i{
+  font-size: 4vw;
+}
+.caja2 figure:hover .capa2 i{
+  color: #5ef550;
+  transition: 1s;
+  font-size: 6vw;
+}
+
+.caja2 figure .capa2 {
+  position: absolute;
+  bottom: 10%;
+  text-align: center;
+  font-size: 3vw;
+  text-shadow: 2px 1px 1px rgb(133, 133, 133) ;
+}
+
+.capa2 p {
+  padding-top: 5%;
+  font-size: 1.5vw;
+}
+.caja3 {
+  width: 24%;
+  margin: 1vw;
+  background-color:rgb(8, 8, 8);
+  float: left;
+  text-align:center;
+  border: 4px inset rgb(143, 143, 143);
+}
+.caja3 h3 {
+  margin-top: 3%;
+  font-size: 1.5vw;
+  margin-bottom: 2%;
+}
+.caja3 p {
+  margin-top: 2%;
+  font-size: 1vw;
+}
+.QR-IMG {
+  width: 10vw;
+}
+.card1 figure {
+  top: 0px;
+  position: relative;
+  display: flex;
+  width: 80.4%;
+  margin: 9%;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+  cursor: pointer;
+  border: gray 3px solid;
+  border-radius: 6px;
+  filter: grayscale(100%);
+  color: white;
+}
+.card1 figure:hover {
+  filter: grayscale(0%);
+  border: rgb(202, 223, 111) 3px solid;
+  transition: 0.8s;
+  width: 85%;
+  margin: 6.7%;
+}
+
+.card1 img{
+  width: 100%;
+}
+.card1 figure .card1-info {
+  position: absolute;
+  align-items: center;
+  display:flex;
+  font-size: 1.2vw;
+  bottom: 10%;
+  left: 10%;
+  text-shadow: 2px 1px 1px rgb(133, 133, 133) ;
+}
+.card1-info i{
+  border-radius: 100%;
+  background-image: radial-gradient(circle at 79.52% 14.82%, #f1ab5f 0, #f7a25f 6.25%, #fc9861 12.5%, #ff8d63 18.75%, #ff8065 25%, #ff7269 31.25%, #fe626d 37.5%, #f95172 43.75%, #f23c78 50%, #e9247f 56.25%, #de0388 62.5%, #d10093 68.75%, #c1009f 75%, #ae00ab 81.25%, #9715b8 87.5%, #7b28c4 93.75%, #5335cf 100%);
+}
+.card1-info p{
+  padding-left: 9px;
+}
+.card1 figure:hover .card1-info {
+  font-size: 1.5vw;
+  transition: 0.5s;
+}
+.card1 figure:hover .card1-info i {
+  font-size: 2.2vw;
+  transition: 0.5s;
+}
+
+.card2 figure {
+  top: 0px;
+  position: relative;
+  display: flex;
+  width: 80.4%;
+  margin: 9%;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+  cursor: pointer;
+  border: gray 3px solid;
+  border-radius: 6px;
+  filter: grayscale(100%);
+  color: white;
+}
+.card2 figure:hover {
+  filter: grayscale(0%);
+  border: rgb(202, 223, 111) 3px solid;
+  transition: 0.8s;
+  width: 85%;
+  margin: 6.7%;
+}
+.card2 img{
+  width: 100%;
+}
+.card2 figure .card2-info {
+  position: absolute;
+  align-items: center;
+  display:flex;
+  font-size: 1.2vw;
+  bottom: 10%;
+  right: 10%;
+  text-shadow: 2px 1px 1px rgb(133, 133, 133) ;
+}
+.card2-info i{
+  color: #3b5998;
+}
+.card2-info p{
+  padding-left: 9px;
+}
+.card2 figure:hover .card2-info {
+  font-size: 1.5vw;
+  transition: 0.5s;
+}
+.card2 figure:hover .card2-info i {
+  font-size: 2.2vw;
+  transition: 0.5s;
+}
+
+.footer {
+  background-color: rgb(31, 30, 30);
+  font-family: "Times New Roman", Times, serif;
+  color: gray;
+  padding: 5vh 0 5vh;
+  text-align: center;
+}
+
+@media screen and (max-width: 770px){
+
+  .navigation ul {
+    font-size: 3vw;
+  }
+  .noticias {
+    font-size: 2.5vw;
+  }
+  .menu-1 {
+    width: 99%;
+  }
+  .menu-2 {
+    width: 96%;
+    margin-bottom: 2vh;
+  }
+  .menu-3 {
+    flex-direction: column;
+  }
+  .caja1 {
+    width: 97%;
+  }
+  .caja1 h3 {
+    font-size: 12vw;
+  }
+  .caja1 p {
+    font-size: 5vw;
+  }
+  .caja2 {
+    width: 97%;
+  }
+  .caja2 h3 {
+    font-size: 10vw;
+  }
+  .caja2 p {
+    font-size: 5vw;
+  }
+  .capa2 i {
+    font-size: 10vw;
+  }
+  .caja2 figure:hover .capa2 i {
+    font-size: 15vw;
+    transition: 0.5s;
+  }
+  .caja3 {
+    width: 95%;
+  }
+  .caja3 h3 {
+    font-size: 4vw;
+  }
+  .caja3 p {
+    font-size: 2vw;
+  }
+  .QR-IMG {
+    width: 50vw;
+  }
+  .card1 i {
+    font-size: 6vw;
+  }
+  .card1 p {
+    font-size: 5vw;
+  }
+  .card2 i {
+    font-size: 6vw;
+  }
+  .card2 p {
+    font-size: 5vw;
+  }
+  .footer p {
+    font-size: 2.5vw;
+  }
+}

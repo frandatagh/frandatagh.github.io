@@ -1,0 +1,178 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+  
+.header {
+    background-color: rgb(3, 3, 3);
+    color: white;
+  
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+}
+
+.header a {
+    color: white;
+    text-decoration: none;
+}
+
+.logo-nav-container {
+    width: 70%;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 1rem;
+}
+
+.logo-nav-container p {
+    text-align: center;
+}
+
+.navigation ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: large;
+    text-align: center;
+}
+
+.navigation ul li {
+    display: inline-block;
+}
+
+.navigation ul li a {
+    display: block;
+    padding: 0.5rem 1rem;
+    transition: all 0.4s linear;
+}
+
+.navigation ul li a:hover {
+    background-color: rgb(49, 49, 49);
+}
+
+.navigation ul li a:active {
+    text-decoration:underline;
+}
+.main {
+    background-color:  rgb(24, 24, 24);
+    padding-top: 6.5rem;
+    padding-bottom: 1.5rem;
+}
+.menu-form {
+    padding-top: 1%;
+    width: 100%;
+    background-image: url(./h-fondo.png);
+    padding-bottom: 2%;
+}
+.formulario {
+    background-color: rgb(27, 27, 27);
+    width: 700px;
+    max-width: 80%;
+    margin: auto;
+    margin-top: 15px;
+    padding: 20px;
+    box-shadow: 0 0 20px 2px;
+    position: relative;
+    border: 3px solid rgb(116, 116, 116);
+    border-radius: 7px;
+    font-family: "Times New Roman", Times, serif;
+}
+.form-titulo {
+    width: 100%;
+    color: white;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.label-nombre {
+    color: white;
+}
+.input-name {
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(107, 107, 107);
+    font-size: larger;
+    text-indent: 8px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.input-name:hover {
+    background-color: rgb(189, 189, 189);
+    color: black;
+}
+.input-correo {
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(107, 107, 107);
+    font-size: larger;
+    text-indent: 8px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.input-correo:hover {
+    background-color: rgb(189, 189, 189);
+    color: black;
+}
+.label-correo {
+    color: white;
+}
+.input-mensaje {
+    width: 100%;
+    height: 200px;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(107, 107, 107);
+    font-size: larger;
+    text-indent: 8px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    overflow-y: scroll;
+}
+
+.input-mensaje:hover {
+    background-color: rgb(189, 189, 189);
+    color: black;
+}
+.label-mensaje {
+    color: white;
+    text-align: center;
+}
+.form-submit {
+    width: 100%;
+    background-color: red;
+    padding: 10px;
+    font-size: 1em;
+    font-weight: bolder;
+    border: 3px solid rgb(105, 98, 98);
+    color: rgb(146, 146, 146);
+    border-radius: 8px;
+}
+.form-submit:hover {
+    background-color: rgb(218, 218, 49);
+    color: black;
+    border: 3px solid white;
+    transition: 0.5s;
+}
+.footer {
+    background-color: rgb(31, 30, 30);
+    font-family: "Times New Roman", Times, serif;
+    color: gray;
+    padding: 1.3rem 0;
+    text-align: center;
+  }
+  @media screen and (max-width: 770px){
+    .navigation ul {
+        font-size: 3vw;
+      }
+      .footer p {
+        font-size: 2.5vw;
+      }
+  }
